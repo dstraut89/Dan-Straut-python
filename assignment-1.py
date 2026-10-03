@@ -16,8 +16,10 @@ conv_age = int(Year_of_birth)
 age = conv_year - conv_age
 height = input("how tall are you (in inches): ")
 conv_height = int(height)
-ft_height = round(conv_height / 12, 2)
+ft_height = int(conv_height / 12)
+inch_height = round(conv_height % 12)
 if is_student == True:
-  print(f"hello, smartypants {name}! You are approximately {age} years old and you are {ft_height} feet tall.")
+  print(f"Hello, smartypants {name}! You are approximately {age} years old and you are {ft_height} feet and {inch_height} inches tall.")
 else:
-  print(f"hello, {name}! You are approximately {age}  years old and you are {ft_height} feet tall.")
+  print(f"Hello, {name}! You are approximately {age}  years old and you are {ft_height} feet and {inch_height} inches tall.")
+
