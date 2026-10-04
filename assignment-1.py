@@ -1,9 +1,14 @@
 # Section 1
 
-name = "Student"
-age = 40
-height = "5.11"
+name = "Daniel"
+age = 37
+height = 5.11
 is_student = True
+
+print(name, type(name))
+print(age, type(age))
+print(height, type(height))
+print(is_student, type(is_student))
 
 # Section 2
 
@@ -68,3 +73,19 @@ if fun == True & textbook == True:
   print("||===========================||")
 else: 
   print("Unfortunately, you didn't ask for your textbook today.")
+
+# Section 5
+
+fname = name
+lname = input("What is your last name?: ")
+hstate = input("What is your homestate? (2 Letter Initials. Example:CT, MA, FL...): ")
+htown = input("What is your hometown?: ")
+funfact = input("What is one fun fact about you?: ")
+
+print("||==========================||")
+print(f"    PROFILE: {fname} {lname}   ")
+print("||==========================||")
+print(f"    Hometown: {htown}, {hstate} ")
+print(f"    Fun fact: {funfact} ")
+print(f"    Age: {age}")
+print("||==========================||")
