@@ -61,8 +61,8 @@ if is_student == True:
   print("||===========================||")
   print("          Receipt              ")
   print("||===========================||")
-  print(f"  Item:      {Item}   ")
-  print(f"  Price:              ${pytxtbk}")
+  print(f"  Item:      {item}   ")
+  print(f"  Price:              ${price}")
   print(f"  Quantity:            {quantity}")
   print("-------------------------------")
   print(f"  Total:              ${total}")
@@ -74,7 +74,7 @@ else:
 
 # Section 5
 
-name = name
+fname = name
 lname = input("What is your last name?: ")
 print("   ")
 hstate = input("What is your homestate? (2 Letter Initials. Example:CT, MA, FL...): ")
