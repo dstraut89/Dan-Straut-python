@@ -1,4 +1,3 @@
-from os import PRIO_PROCESS
 # Section 1
 
 name = "Daniel"
